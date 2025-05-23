@@ -1,0 +1,133 @@
+.LoginContainer{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5px;
+    padding-bottom: 30px;
+    background-color: transparent;
+    border-radius: 10%;
+    width: 600px;
+    
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(102, 102, 237);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 150px;
+    height: 6px;
+    background: burlywood;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: white;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 10px;
+    width: 40px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.Already-account{
+   padding-left: 62px;
+    margin-top: 27px;
+    color: #382626;
+    font-size: 18px; 
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #2a1d1d;
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: rgb(104, 104, 231);
+    cursor: pointer;
+}
+
+.submit-cotainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(67, 64, 231);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
+
+.Error-Message{
+    color: red;
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit-button{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.submit-button button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 220px;
+    height: 59px;
+
+}
